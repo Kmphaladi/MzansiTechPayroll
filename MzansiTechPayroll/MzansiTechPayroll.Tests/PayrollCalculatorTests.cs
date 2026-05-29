@@ -24,8 +24,8 @@ namespace MzansiTechPayroll.Tests
         [TestCategory("Payroll Calculations")]
         public void CalculateGrossPay_ValidHours_ReturnsCorrectAmount()
         {
-            decimal hours = 20m;                    // You can change this
-            decimal expected = 19000m;              // 20 * 950
+            decimal hours = 20m;
+            decimal expected = 19000m;
 
             decimal actual = calculator.CalculateGrossPay(hours);
 
@@ -57,12 +57,12 @@ namespace MzansiTechPayroll.Tests
         }
 
         [TestMethod]
-        [TestCategory("Payroll Calculations")]
+        // Payroll tax calculation with dependents 
         public void CalculatePAYE_WithDependents_AppliesCorrectFormula()
         {
             decimal grossPay = 19000m;
             int dependents = 1;
-            decimal expected = 4488.125m;   // Calculated from formula
+            decimal expected = 4476.875m;    
 
             decimal actual = calculator.CalculatePAYE(grossPay, dependents);
 
@@ -70,19 +70,20 @@ namespace MzansiTechPayroll.Tests
         }
 
         [TestMethod]
-        [TestCategory("Integration")]
+        // Integration Test
         public void CalculatePayroll_FullCalculation_ReturnsCorrectResults()
         {
             decimal hours = 20m;
             int dependents = 1;
 
-            PayrollResult result = calculator.CalculatePayroll("Jane Smith", hours, dependents);
+            // Expected values based on the calculations:
+            PayrollResult result = calculator.CalculatePayroll("Kamo Phaladi", hours, dependents);
 
             Assert.AreEqual(19000m, result.GrossPay);
             Assert.AreEqual(190m, result.UIF);
             Assert.AreEqual(2470m, result.MembershipFee);
-            Assert.AreEqual(4488.125m, result.PAYE);
-            Assert.AreEqual(11851.875m, result.NetPay);
+            Assert.AreEqual(4476.875m, result.PAYE);      
+            Assert.AreEqual(11863.125m, result.NetPay);   
         }
     }
 }

@@ -1,4 +1,4 @@
-# Visual Studio files
+# Visual Studio
 .vs/
 bin/
 obj/
@@ -7,7 +7,8 @@ obj/
 *.sdf
 *.opendb
 
-# Ignore these folders
-**/.vs/
+# Ignore recursively
 **/bin/
 **/obj/
+**/Debug/
+**/Release/

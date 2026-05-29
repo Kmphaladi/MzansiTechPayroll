@@ -31,16 +31,17 @@ namespace MzansiTechPayroll
                 return grossPay * MEMBERSHIP_RATE;
             }
 
-            // PAYE = (Gross Pay - (Gross Pay × 0.0575 × Dependents)) × 25%
+        // PAYE = (Gross Pay - (Gross Pay × 0.0575 × Dependents)) × 25%
             public decimal CalculatePAYE(decimal grossPay, int dependents)
             {
-                decimal taxRebate = grossPay * 0.0575m * dependents;
-                decimal taxableAmount = grossPay - taxRebate;
-                return taxableAmount * 0.25m;
+            decimal rebatePerDependent = 0.0575m;
+            decimal taxRebate = grossPay * rebatePerDependent * dependents;
+            decimal taxableAmount = grossPay - taxRebate;
+            return taxableAmount * 0.25m;
             }
 
-            // Calculates Net Pay
-            public decimal CalculateNetPay(decimal grossPay, decimal uif, decimal paye, decimal membership)
+        // Calculates Net Pay
+        public decimal CalculateNetPay(decimal grossPay, decimal uif, decimal paye, decimal membership)
             {
                 return grossPay - uif - paye - membership;
             }

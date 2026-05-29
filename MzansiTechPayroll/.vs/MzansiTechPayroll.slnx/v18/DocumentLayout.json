@@ -3,11 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\Downloads\\PRACTICAL GIT\\MzansiTechPayroll\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{512FB718-E467-4D8A-811B-469A4E7403E5}|MzansiTechPayroll.Tests\\MzansiTechPayroll.Tests.csproj|C:\\Users\\admin\\Downloads\\PRACTICAL GIT\\MzansiTechPayroll\\mzansitechpayroll.tests\\payrollcalculatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{512FB718-E467-4D8A-811B-469A4E7403E5}|MzansiTechPayroll.Tests\\MzansiTechPayroll.Tests.csproj|solutionrelative:mzansitechpayroll.tests\\payrollcalculatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED1E059F-0218-43C0-BC41-1A706FACE3F9}|MzansiTechPayroll\\MzansiTechPayroll.csproj|c:\\users\\admin\\downloads\\practical git\\mzansitechpayroll\\mzansitechpayroll\\payrollform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ED1E059F-0218-43C0-BC41-1A706FACE3F9}|MzansiTechPayroll\\MzansiTechPayroll.csproj|C:\\Users\\admin\\Downloads\\PRACTICAL GIT\\MzansiTechPayroll\\mzansitechpayroll\\payrollform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED1E059F-0218-43C0-BC41-1A706FACE3F9}|MzansiTechPayroll\\MzansiTechPayroll.csproj|solutionrelative:mzansitechpayroll\\payrollform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -21,6 +17,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{ED1E059F-0218-43C0-BC41-1A706FACE3F9}|MzansiTechPayroll\\MzansiTechPayroll.csproj|C:\\Users\\admin\\Downloads\\PRACTICAL GIT\\MzansiTechPayroll\\mzansitechpayroll\\payrollcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED1E059F-0218-43C0-BC41-1A706FACE3F9}|MzansiTechPayroll\\MzansiTechPayroll.csproj|solutionrelative:mzansitechpayroll\\payrollcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512FB718-E467-4D8A-811B-469A4E7403E5}|MzansiTechPayroll.Tests\\MzansiTechPayroll.Tests.csproj|c:\\users\\admin\\downloads\\practical git\\mzansitechpayroll\\mzansitechpayroll.tests\\payrollcalculatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{512FB718-E467-4D8A-811B-469A4E7403E5}|MzansiTechPayroll.Tests\\MzansiTechPayroll.Tests.csproj|solutionrelative:mzansitechpayroll.tests\\payrollcalculatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +38,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "PayrollForm.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Downloads\\PRACTICAL GIT\\MzansiTechPayroll\\MzansiTechPayroll\\PayrollForm.cs",
               "RelativeDocumentMoniker": "MzansiTechPayroll\\PayrollForm.cs",
@@ -51,32 +51,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "PayrollCalculatorTests.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Downloads\\PRACTICAL GIT\\MzansiTechPayroll\\MzansiTechPayroll.Tests\\PayrollCalculatorTests.cs",
               "RelativeDocumentMoniker": "MzansiTechPayroll.Tests\\PayrollCalculatorTests.cs",
               "ToolTip": "C:\\Users\\admin\\Downloads\\PRACTICAL GIT\\MzansiTechPayroll\\MzansiTechPayroll.Tests\\PayrollCalculatorTests.cs",
               "RelativeToolTip": "MzansiTechPayroll.Tests\\PayrollCalculatorTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAMjMzMzMywDgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-12T19:53:55.665Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "PayrollCalculator.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Downloads\\PRACTICAL GIT\\MzansiTechPayroll\\MzansiTechPayroll\\PayrollCalculator.cs",
               "RelativeDocumentMoniker": "MzansiTechPayroll\\PayrollCalculator.cs",
               "ToolTip": "C:\\Users\\admin\\Downloads\\PRACTICAL GIT\\MzansiTechPayroll\\MzansiTechPayroll\\PayrollCalculator.cs",
               "RelativeToolTip": "MzansiTechPayroll\\PayrollCalculator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAACAyczMzMwqwCgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T19:13:42.174Z"
+              "WhenOpened": "2026-05-12T19:13:42.174Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "frmPayroll.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Downloads\\PRACTICAL GIT\\MzansiTechPayroll\\MzansiTechPayroll\\frmPayroll.cs",
               "RelativeDocumentMoniker": "MzansiTechPayroll\\frmPayroll.cs",
@@ -84,18 +85,20 @@
               "RelativeToolTip": "MzansiTechPayroll\\frmPayroll.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T18:40:01.681Z"
+              "WhenOpened": "2026-05-12T18:40:01.681Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "frmPayroll.cs [Design]",
               "DocumentMoniker": "C:\\Users\\admin\\Downloads\\PRACTICAL GIT\\MzansiTechPayroll\\MzansiTechPayroll\\frmPayroll.cs",
               "RelativeDocumentMoniker": "MzansiTechPayroll\\frmPayroll.cs",
               "ToolTip": "C:\\Users\\admin\\Downloads\\PRACTICAL GIT\\MzansiTechPayroll\\MzansiTechPayroll\\frmPayroll.cs [Design]",
               "RelativeToolTip": "MzansiTechPayroll\\frmPayroll.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T18:27:04.489Z"
+              "WhenOpened": "2026-05-12T18:27:04.489Z",
+              "EditorCaption": " [Design]"
             }
           ]
         },
