@@ -8,41 +8,76 @@ namespace MzansiTechPayroll
     {
         public class PayrollCalculator
         {
-            private const decimal HourlyRate = 950.00m;
-            private const decimal UIFRate = 0.01m;           // 1%
-            private const decimal MembershipRate = 0.13m;    // 13%
+            // Constants as per business rules
+            private const decimal HOURLY_RATE = 950.00m;      // R950 per hour
+        private const decimal UIF_RATE = 0.01m;           // 1%
+            private const decimal MEMBERSHIP_RATE = 0.13m;    // 13%
 
+            // Calculates Gross Pay
             public decimal CalculateGrossPay(decimal hoursWorked)
             {
-                return hoursWorked * HourlyRate;
+                return hoursWorked * HOURLY_RATE;
             }
 
+            // Calculates UIF Deduction (1% of Gross Pay)
             public decimal CalculateUIF(decimal grossPay)
             {
-                return grossPay * UIFRate;
+                return grossPay * UIF_RATE;
             }
 
+            // Calculates Membership Fee (13% of Gross Pay)
             public decimal CalculateMembershipFee(decimal grossPay)
             {
-                return grossPay * MembershipRate;
+                return grossPay * MEMBERSHIP_RATE;
             }
 
+            // PAYE = (Gross Pay - (Gross Pay × 0.0575 × Dependents)) × 25%
             public decimal CalculatePAYE(decimal grossPay, int dependents)
             {
-                decimal taxCredit = grossPay * 0.0575m * dependents;
-                decimal taxableAmount = grossPay - taxCredit;
-                return taxableAmount * 0.25m;   // 25%
+                decimal taxRebate = grossPay * 0.0575m * dependents;
+                decimal taxableAmount = grossPay - taxRebate;
+                return taxableAmount * 0.25m;
             }
 
+            // Calculates Net Pay
             public decimal CalculateNetPay(decimal grossPay, decimal uif, decimal paye, decimal membership)
             {
                 return grossPay - uif - paye - membership;
             }
 
-            public decimal CalculateTotalDeductions(decimal uif, decimal paye, decimal membership)
+            // Main method that calculates everything and returns all values
+            public PayrollResult CalculatePayroll(string contractorName, decimal hoursWorked, int dependents)
             {
-                return uif + paye + membership;
+                decimal grossPay = CalculateGrossPay(hoursWorked);
+                decimal uif = CalculateUIF(grossPay);
+                decimal membership = CalculateMembershipFee(grossPay);
+                decimal paye = CalculatePAYE(grossPay, dependents);
+                decimal netPay = CalculateNetPay(grossPay, uif, paye, membership);
+                decimal totalDeductions = uif + paye + membership;
+
+                return new PayrollResult
+                {
+                    ContractorName = contractorName,
+                    GrossPay = grossPay,
+                    UIF = uif,
+                    PAYE = paye,
+                    MembershipFee = membership,
+                    TotalDeductions = totalDeductions,
+                    NetPay = netPay
+                };
             }
+        }
+
+        // Helper class to return all results together
+        public class PayrollResult
+        {
+            public string ContractorName { get; set; }
+            public decimal GrossPay { get; set; }
+            public decimal UIF { get; set; }
+            public decimal PAYE { get; set; }
+            public decimal MembershipFee { get; set; }
+            public decimal TotalDeductions { get; set; }
+            public decimal NetPay { get; set; }
         }
     }
 

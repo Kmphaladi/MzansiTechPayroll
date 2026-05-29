@@ -1,6 +1,6 @@
 ﻿namespace MzansiTechPayroll
 {
-    partial class frmPayroll
+    partial class PayrollForm
     {
         /// <summary>
         /// Required designer variable.
@@ -131,6 +131,7 @@
             this.btnCalculate.TabIndex = 7;
             this.btnCalculate.Text = "Calculate Net Pay";
             this.btnCalculate.UseVisualStyleBackColor = true;
+            this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
             // 
             // btnReset
             // 
@@ -142,6 +143,7 @@
             this.btnReset.TabIndex = 8;
             this.btnReset.Text = "Reset";
             this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // btnExit
             // 
@@ -153,6 +155,7 @@
             this.btnExit.TabIndex = 9;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // label5
             // 
@@ -222,6 +225,7 @@
             // 
             // txtGrossPay
             // 
+            this.txtGrossPay.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtGrossPay.Location = new System.Drawing.Point(297, 35);
             this.txtGrossPay.Name = "txtGrossPay";
             this.txtGrossPay.ReadOnly = true;
@@ -230,6 +234,7 @@
             // 
             // txtUIF
             // 
+            this.txtUIF.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUIF.Location = new System.Drawing.Point(297, 92);
             this.txtUIF.Name = "txtUIF";
             this.txtUIF.ReadOnly = true;
@@ -238,6 +243,7 @@
             // 
             // txtPAYE
             // 
+            this.txtPAYE.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPAYE.Location = new System.Drawing.Point(297, 158);
             this.txtPAYE.Name = "txtPAYE";
             this.txtPAYE.ReadOnly = true;
@@ -246,6 +252,7 @@
             // 
             // txtMembership
             // 
+            this.txtMembership.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMembership.Location = new System.Drawing.Point(297, 223);
             this.txtMembership.Name = "txtMembership";
             this.txtMembership.ReadOnly = true;
@@ -254,6 +261,7 @@
             // 
             // txtTotalDeductions
             // 
+            this.txtTotalDeductions.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTotalDeductions.Location = new System.Drawing.Point(297, 290);
             this.txtTotalDeductions.Name = "txtTotalDeductions";
             this.txtTotalDeductions.ReadOnly = true;
@@ -262,6 +270,7 @@
             // 
             // txtNetPay
             // 
+            this.txtNetPay.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNetPay.Location = new System.Drawing.Point(297, 356);
             this.txtNetPay.Name = "txtNetPay";
             this.txtNetPay.ReadOnly = true;

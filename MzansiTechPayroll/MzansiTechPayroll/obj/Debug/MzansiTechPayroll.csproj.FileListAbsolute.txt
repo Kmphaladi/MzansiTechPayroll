@@ -8,3 +8,13 @@ C:\Users\admin\Documents\PM FOR SDT621\MzansiTechPayroll\MzansiTechPayroll\obj\D
 C:\Users\admin\Documents\PM FOR SDT621\MzansiTechPayroll\MzansiTechPayroll\obj\Debug\MzansiTechPayroll.csproj.CoreCompileInputs.cache
 C:\Users\admin\Documents\PM FOR SDT621\MzansiTechPayroll\MzansiTechPayroll\obj\Debug\MzansiTechPayroll.exe
 C:\Users\admin\Documents\PM FOR SDT621\MzansiTechPayroll\MzansiTechPayroll\obj\Debug\MzansiTechPayroll.pdb
+C:\Users\admin\Downloads\PRACTICAL GIT\MzansiTechPayroll\MzansiTechPayroll\bin\Debug\MzansiTechPayroll.exe.config
+C:\Users\admin\Downloads\PRACTICAL GIT\MzansiTechPayroll\MzansiTechPayroll\bin\Debug\MzansiTechPayroll.exe
+C:\Users\admin\Downloads\PRACTICAL GIT\MzansiTechPayroll\MzansiTechPayroll\bin\Debug\MzansiTechPayroll.pdb
+C:\Users\admin\Downloads\PRACTICAL GIT\MzansiTechPayroll\MzansiTechPayroll\obj\Debug\MzansiTechPayroll.csproj.AssemblyReference.cache
+C:\Users\admin\Downloads\PRACTICAL GIT\MzansiTechPayroll\MzansiTechPayroll\obj\Debug\MzansiTechPayroll.Properties.Resources.resources
+C:\Users\admin\Downloads\PRACTICAL GIT\MzansiTechPayroll\MzansiTechPayroll\obj\Debug\MzansiTechPayroll.csproj.GenerateResource.cache
+C:\Users\admin\Downloads\PRACTICAL GIT\MzansiTechPayroll\MzansiTechPayroll\obj\Debug\MzansiTechPayroll.csproj.CoreCompileInputs.cache
+C:\Users\admin\Downloads\PRACTICAL GIT\MzansiTechPayroll\MzansiTechPayroll\obj\Debug\MzansiTechPayroll.exe
+C:\Users\admin\Downloads\PRACTICAL GIT\MzansiTechPayroll\MzansiTechPayroll\obj\Debug\MzansiTechPayroll.pdb
+C:\Users\admin\Downloads\PRACTICAL GIT\MzansiTechPayroll\MzansiTechPayroll\obj\Debug\MzansiTechPayroll.PayrollForm.resources

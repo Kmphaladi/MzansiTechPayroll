@@ -53,7 +53,7 @@
       <DependentUpon>frmPayroll.cs</DependentUpon>
     </Compile>
     <Compile Include="PayrollCalculator.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="PayrollForm.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmPayroll.resx">
       <DependentUpon>frmPayroll.cs</DependentUpon>

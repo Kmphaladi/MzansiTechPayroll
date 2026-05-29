@@ -1,0 +1,13 @@
+# Visual Studio files
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.sdf
+*.opendb
+
+# Ignore these folders
+**/.vs/
+**/bin/
+**/obj/
